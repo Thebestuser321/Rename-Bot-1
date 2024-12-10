@@ -4,7 +4,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "26728872")
     API_HASH  = os.environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7477897274:AAHFru67ccFY8V19XKdDflZtuLtvl_NrOc0") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","rename")     
@@ -12,11 +12,11 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/43cd651462f9a1491ee1c-1c98e2651c2e23e0f8.jpg")
     ADMIN = int(os.environ.get("ADMIN", "1705634892"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002226481922") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002288135729"))
     
 
